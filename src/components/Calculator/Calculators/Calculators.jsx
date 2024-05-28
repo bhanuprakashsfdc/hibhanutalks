@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { calculatorData } from '../../data/calculatorData';
+import { calculatorData } from '../../../data/calculatorData';
 
 const Calculators = () => (
   <main>
