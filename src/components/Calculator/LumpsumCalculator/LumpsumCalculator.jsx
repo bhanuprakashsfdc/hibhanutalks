@@ -6,9 +6,9 @@ import './LumpsumCalculator.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const LumpsumCalculator = () => {
-  const [principal, setPrincipal] = useState('1000');
-  const [rateOfInterest, setRateOfInterest] = useState('');
-  const [timePeriod, setTimePeriod] = useState('');
+  const [principal, setPrincipal] = useState('1000000');
+  const [rateOfInterest, setRateOfInterest] = useState('15');
+  const [timePeriod, setTimePeriod] = useState('15');
   const [results, setResults] = useState(null);
 
   useEffect(() => {
