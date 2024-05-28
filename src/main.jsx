@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App';
 import CalculatorDetail from './components/CalculatorDetail/CalculatorDetail';
 import SIPCalculator from './components/Calculator/SIPCalculator/SIPCalculator';
+import LumpsumCalculator from './components/Calculator/LumpsumCalculator/LumpsumCalculator';
 import './App.css';
 
 const rootElement = document.getElementById('root');
@@ -15,6 +16,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/calculator/:slug" element={<CalculatorDetail />} />
       <Route path="/calculator/sip-calculator" element={<SIPCalculator />} />
+      <Route path="/calculator/lumpsum-calculator" element={<LumpsumCalculator />} />
     </Routes>
   </Router>
 );
