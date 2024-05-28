@@ -28,6 +28,10 @@ import APYCalculator from './components/Calculator/APYCalculator/APYCalculator';
 import CAGRCalculator from './components/Calculator/CAGRCalculator/CAGRCalculator';
 import GSTCalculator from './components/Calculator/GSTCalculator/GSTCalculator';
 import BrokerageCalculator from './components/Calculator/BrokerageCalculator/BrokerageCalculator';
+import MarginCalculator from './components/Calculator/MarginCalculator/MarginCalculator';
+import TDSCalculator from './components/Calculator/TDSCalculator/TDSCalculator';
+import SalaryCalculator from './components/Calculator/SalaryCalculator/SalaryCalculator';
+import InflationCalculator from './components/Calculator/InflationCalculator/InflationCalculator';
 
 import './App.css';
 
@@ -65,6 +69,10 @@ root.render(
       <Route path="/calculator/cagr-calculator" element={<CAGRCalculator />} /> 
       <Route path="/calculator/gst-calculator" element={<GSTCalculator />} />
       <Route path="/calculator/brokerage-calculator" element={<BrokerageCalculator />} /> 
+      <Route path="/calculator/margin-calculator" element={<MarginCalculator />} />
+      <Route path="/calculator/tds-calculator" element={<TDSCalculator />} />
+      <Route path="/calculator/salary-calculator" element={<SalaryCalculator />} />
+      <Route path="/calculator/inflation-calculator" element={<InflationCalculator />} />
 
     </Routes>
   </Router>

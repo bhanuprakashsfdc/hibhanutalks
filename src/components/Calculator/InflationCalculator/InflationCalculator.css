@@ -1,4 +1,4 @@
-.brokerage-calculator {
+.inflation-calculator {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -7,40 +7,30 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .brokerage-calculator h1 {
+  .inflation-calculator h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
   }
   
-  .brokerage-calculator .form-group {
+  .inflation-calculator .form-group {
     margin-bottom: 15px;
   }
   
-  .brokerage-calculator label {
+  .inflation-calculator label {
     display: block;
     margin-bottom: 5px;
     color: #777;
   }
   
-  .brokerage-calculator input {
+  .inflation-calculator input {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
   
-  .brokerage-calculator button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .brokerage-calculator .result {
+  .inflation-calculator .result {
     text-align: center;
     margin-top: 20px;
   }
