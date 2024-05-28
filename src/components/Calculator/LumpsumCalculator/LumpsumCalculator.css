@@ -1,0 +1,72 @@
+.lumpsum-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lumpsum-calculator h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .lumpsum-calculator .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .lumpsum-calculator label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  .lumpsum-calculator input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .lumpsum-calculator button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lumpsum-calculator .result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .lumpsum-calculator .breakdown {
+    margin-top: 20px;
+  }
+  
+  .lumpsum-calculator table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .lumpsum-calculator table, .lumpsum-calculator th, .lumpsum-calculator td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .lumpsum-calculator th {
+    background-color: #f2f2f2;
+    text-align: center;
+    color: #333;
+  }
+  
+  .lumpsum-calculator td {
+    text-align: center;
+  }
+  

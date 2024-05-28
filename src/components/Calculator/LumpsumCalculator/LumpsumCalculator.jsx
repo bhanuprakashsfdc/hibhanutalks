@@ -1,42 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import './SIPCalculator.css';
+import './LumpsumCalculator.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const SIPCalculator = () => {
-  const [monthlyInvestment, setMonthlyInvestment] = useState('10000');
+const LumpsumCalculator = () => {
+  const [principal, setPrincipal] = useState('1000000');
   const [rateOfInterest, setRateOfInterest] = useState('15');
-  const [investmentPeriod, setInvestmentPeriod] = useState('25');
+  const [timePeriod, setTimePeriod] = useState('15');
   const [results, setResults] = useState(null);
 
   useEffect(() => {
-    if (monthlyInvestment && rateOfInterest && investmentPeriod) {
-      calculateSIP();
+    if (principal && rateOfInterest && timePeriod) {
+      calculateLumpsum();
     }
-  }, [monthlyInvestment, rateOfInterest, investmentPeriod]);
+  }, [principal, rateOfInterest, timePeriod]);
 
-  const calculateSIP = () => {
-    const P = parseFloat(monthlyInvestment);
-    const r = parseFloat(rateOfInterest) / 100 / 12;
-    const n = parseFloat(investmentPeriod) * 12;
+  const calculateLumpsum = () => {
+    const P = parseFloat(principal);
+    const r = parseFloat(rateOfInterest) / 100;
+    const t = parseFloat(timePeriod);
 
-    const FV = P * ((Math.pow(1 + r, n) - 1) / r) * (1 + r);
-    const totalInvested = P * n;
+    const FV = P * Math.pow(1 + r, t);
+    const totalInvested = P;
     const estReturns = FV - totalInvested;
 
     const breakdown = [];
-    let startingAmount = 0;
-    const yearlyInvestment = P * 12;
-    for (let i = 1; i <= investmentPeriod; i++) {
-      const interestGenerated = (startingAmount + yearlyInvestment) * Math.pow(1 + r, 12) - (startingAmount + yearlyInvestment);
-      const amount = startingAmount + yearlyInvestment + interestGenerated;
+    let startingAmount = P;
+    for (let i = 1; i <= t; i++) {
+      const interestGenerated = startingAmount * r;
+      const amount = startingAmount + interestGenerated;
 
       breakdown.push({
         year: i,
         startingAmount: startingAmount.toFixed(2),
-        investedAmount: yearlyInvestment.toFixed(2),
+        investedAmount: (i === 1 ? P : 0).toFixed(2),
         interestGenerated: interestGenerated.toFixed(2),
         amount: amount.toFixed(2)
       });
@@ -64,16 +63,16 @@ const SIPCalculator = () => {
   } : null;
 
   return (
-    <div className="sip-calculator">
-      <h1>SIP Calculator</h1>
+    <div className="lumpsum-calculator">
+      <h1>Lumpsum Calculator</h1>
       <form onSubmit={(e) => e.preventDefault()}>
         <div className="form-group">
           <label>
-            Monthly Investment:
+            Principal Amount:
             <input
               type="number"
-              value={monthlyInvestment}
-              onChange={(e) => setMonthlyInvestment(e.target.value)}
+              value={principal}
+              onChange={(e) => setPrincipal(e.target.value)}
               required
             />
           </label>
@@ -91,11 +90,11 @@ const SIPCalculator = () => {
         </div>
         <div className="form-group">
           <label>
-            Investment Period (Years):
+            Time Period (Years):
             <input
               type="number"
-              value={investmentPeriod}
-              onChange={(e) => setInvestmentPeriod(e.target.value)}
+              value={timePeriod}
+              onChange={(e) => setTimePeriod(e.target.value)}
               required
             />
           </label>
@@ -138,4 +137,4 @@ const SIPCalculator = () => {
   );
 };
 
-export default SIPCalculator;
+export default LumpsumCalculator;
