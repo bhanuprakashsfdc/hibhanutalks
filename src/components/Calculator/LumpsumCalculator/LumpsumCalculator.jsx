@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GenericCalculator from '../GenericCalculator/GenericCalculator';
 
 const calculateLumpsum = (principal, rate, time) => {
@@ -36,12 +36,28 @@ const calculateLumpsum = (principal, rate, time) => {
   };
 };
 
-const LumpsumCalculator = () => (
-  <GenericCalculator
-    title="Lumpsum Calculator"
-    description="Calculate returns for lumpsum investments to achieve your financial goals"
-    calculate={calculateLumpsum}
-  />
-);
+const LumpsumCalculator = () => {
+  const [input1, setInput1] = useState('100000');
+  const [input2, setInput2] = useState('12');
+  const [input3, setInput3] = useState('10');
+  const [results, setResults] = useState(null);
+
+  return (
+    <GenericCalculator
+      title="Lumpsum Calculator"
+      description="Calculate returns for lumpsum investments to achieve your financial goals"
+      calculate={calculateLumpsum}
+      labels={{ input1: "Principal Amount", input2: "Rate of Interest (Annual)", input3: "Time Period (Years)" }}
+      input1={input1}
+      setInput1={setInput1}
+      input2={input2}
+      setInput2={setInput2}
+      input3={input3}
+      setInput3={setInput3}
+      results={results}
+      setResults={setResults}
+    />
+  );
+};
 
 export default LumpsumCalculator;

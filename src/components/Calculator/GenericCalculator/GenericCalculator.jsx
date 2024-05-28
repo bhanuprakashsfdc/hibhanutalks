@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import './GenericCalculator.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const GenericCalculator = ({ title, description, calculate }) => {
-  const [input1, setInput1] = useState('100000');
-  const [input2, setInput2] = useState('12');
-  const [input3, setInput3] = useState('10');
-  const [results, setResults] = useState(null);
+const GenericCalculator = ({ title, description, calculate, labels, input1, setInput1, input2, setInput2, input3, setInput3, results, setResults }) => {
 
   useEffect(() => {
     if (input1 && input2 && input3) {
@@ -36,7 +32,7 @@ const GenericCalculator = ({ title, description, calculate }) => {
       <form onSubmit={(e) => e.preventDefault()}>
         <div className="form-group">
           <label>
-            Total Investment
+            {labels.input1}:
             <input
               type="number"
               value={input1}
@@ -47,7 +43,7 @@ const GenericCalculator = ({ title, description, calculate }) => {
         </div>
         <div className="form-group">
           <label>
-            Expected return (p.a)
+            {labels.input2}:
             <input
               type="number"
               value={input2}
@@ -58,7 +54,7 @@ const GenericCalculator = ({ title, description, calculate }) => {
         </div>
         <div className="form-group">
           <label>
-            Time Period
+            {labels.input3}:
             <input
               type="number"
               value={input3}
