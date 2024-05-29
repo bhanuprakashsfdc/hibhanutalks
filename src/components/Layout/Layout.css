@@ -1,14 +1,33 @@
 .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .content {
-    flex: 1;
-    padding: 20px;
-    margin-bottom: 60px; /* Adjust for footer height */
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  flex: 0 0 auto;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.footer {
+  flex: 0 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}

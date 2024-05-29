@@ -2,7 +2,7 @@ export const calculatorData =
 [
     {
         "id": 1,
-        "title": "SIP",
+        "title": "SIP Calculator",
         "slug": "sip-calculator",
         "description": "Calculate how much you need to save or how much you will accumulate with your SIP",
         "content": "",
@@ -13,7 +13,7 @@ export const calculatorData =
       },
       {
         "id": 2,
-        "title": "Lumpsum",
+        "title": "Lumpsum Calculator",
         "slug": "lumpsum-calculator",
         "description": "Calculate returns for lumpsum investments to achieve your financial goals",
         "content": "",
@@ -24,7 +24,7 @@ export const calculatorData =
       },
       {
         "id": 3,
-        "title": "SWP",
+        "title": "SWP Calculator",
         "slug": "swp-calculator",
         "description": "Calculate your final amount with Systematic Withdrawal Plans (SWP)",
         "content": "",
@@ -35,7 +35,7 @@ export const calculatorData =
       },
       {
         "id": 4,
-        "title": "ULIP",
+        "title": "ULIP Calculator",
         "slug": "ulip-calculator",
         "description": "Calculate returns and benefits of ULIP investments",
         "content": "",
@@ -46,7 +46,7 @@ export const calculatorData =
       },
       {
         "id": 5,
-        "title": "MF",
+        "title": "MF Calculator",
         "slug": "mf-calculator",
         "description": "Calculate the returns on your mutual fund investments",
         "content": "",
@@ -57,7 +57,7 @@ export const calculatorData =
       },
       {
         "id": 6,
-        "title": "SSY",
+        "title": "SSY Calculator",
         "slug": "ssy-calculator",
         "description": "Calculate returns for Sukanya Smariddhi Yojana (SSY) as per your investment",
         "content": "",
@@ -68,7 +68,7 @@ export const calculatorData =
       },
       {
         "id": 7,
-        "title": "PPF",
+        "title": "PPF Calculator",
         "slug": "ppf-calculator",
         "description": "Calculate your returns on Public Provident Fund (PPF)",
         "content": "",
@@ -79,7 +79,7 @@ export const calculatorData =
       },
       {
         "id": 8,
-        "title": "FD",
+        "title": "FD Calculator",
         "slug": "fd-calculator",
         "description": "Check returns on your fixed deposits (FDs) without any hassle",
         "content": "",
@@ -90,7 +90,7 @@ export const calculatorData =
       },
       {
         "id": 9,
-        "title": "RD",
+        "title": "RD Calculator",
         "slug": "rd-calculator",
         "description": "Check returns on your Recurring Deposit (RD) in just a few clicks",
         "content": "",
@@ -101,7 +101,7 @@ export const calculatorData =
       },
       {
         "id": 10,
-        "title": "NPS",
+        "title": "NPS Calculator",
         "slug": "nps-calculator",
         "description": "Calculate returns for your National Pension Scheme (NPS)",
         "content": "",
@@ -112,7 +112,7 @@ export const calculatorData =
       },
       {
         "id": 11,
-        "title": "HRA",
+        "title": "HRA Calculator",
         "slug": "hra-calculator",
         "description": "Calculate your House Rent Allowance (HRA)",
         "content": "",
@@ -123,7 +123,7 @@ export const calculatorData =
       },
       {
         "id": 12,
-        "title": "Retirement",
+        "title": "Retirement Calculator",
         "slug": "retirement-calculator",
         "description": "Calculate how much you need for a relaxed retirement",
         "content": "",
@@ -134,7 +134,7 @@ export const calculatorData =
       },
       {
         "id": 13,
-        "title": "EMI",
+        "title": "EMI Calculator",
         "slug": "emi-calculator",
         "description": "Calculate EMI on your loans – home loan, car loan or personal loan",
         "content": "",
@@ -145,7 +145,7 @@ export const calculatorData =
       },
       {
         "id": 14,
-        "title": "Car Loan EMI",
+        "title": "Car Loan EMI Calculator",
         "slug": "car-loan-emi-calculator",
         "description": "Calculate your car loan EMI",
         "content": "",
@@ -156,7 +156,7 @@ export const calculatorData =
       },
       {
         "id": 15,
-        "title": "Home Loan EMI",
+        "title": "Home Loan EMI Calculator",
         "slug": "home-loan-emi-calculator",
         "description": "Calculate your home loan EMI",
         "content": "",
@@ -167,7 +167,7 @@ export const calculatorData =
       },
       {
         "id": 16,
-        "title": "Simple Interest",
+        "title": "Simple Interest Calculator",
         "slug": "simple-interest-calculator",
         "description": "Calculate simple interest on your loans and saving schemes investments",
         "content": "",
@@ -178,7 +178,7 @@ export const calculatorData =
       },
       {
         "id": 17,
-        "title": "Compound Interest",
+        "title": "Compound Interest Calculator",
         "slug": "compound-interest-calculator",
         "description": "Calculate compound interest with ease",
         "content": "",
@@ -189,7 +189,7 @@ export const calculatorData =
       },
       {
         "id": 18,
-        "title": "NSC",
+        "title": "NSC Calculator",
         "slug": "nsc-calculator",
         "description": "Calculate your returns under National Savings Certificate scheme",
         "content": "",
@@ -200,7 +200,7 @@ export const calculatorData =
       },
       {
         "id": 19,
-        "title": "Step Up SIP",
+        "title": "Step Up SIP Calculator",
         "slug": "step-up-sip-calculator",
         "description": "Calculate SIP Returns with an Yearly Raise",
         "content": "",
@@ -211,7 +211,7 @@ export const calculatorData =
       },
       {
         "id": 20,
-        "title": "Income Tax",
+        "title": "Income Tax Calculator",
         "slug": "income-tax-calculator",
         "description": "Calculate your payable income tax with minimal effort",
         "content": "",
@@ -222,7 +222,7 @@ export const calculatorData =
       },
       {
         "id": 21,
-        "title": "Gratuity",
+        "title": "Gratuity Calculator",
         "slug": "gratuity-calculator",
         "description": "Calculate how much gratuity you will get when you retire",
         "content": "",
@@ -233,7 +233,7 @@ export const calculatorData =
       },
       {
         "id": 22,
-        "title": "APY",
+        "title": "APY Calculator",
         "slug": "apy-calculator",
         "description": "Calculate your monthly investments under Atal Pension Yojana",
         "content": "",
@@ -244,7 +244,7 @@ export const calculatorData =
       },
       {
         "id": 23,
-        "title": "CAGR",
+        "title": "CAGR Calculator",
         "slug": "cagr-calculator",
         "description": "The simplest compound annual growth rate calculator",
         "content": "",
@@ -255,7 +255,7 @@ export const calculatorData =
       },
       {
         "id": 24,
-        "title": "GST",
+        "title": "GST Calculator",
         "slug": "gst-calculator",
         "description": "Calculate your payable GST amount with a few clicks",
         "content": "",
@@ -266,7 +266,7 @@ export const calculatorData =
       },
       {
         "id": 25,
-        "title": "Flat vs Reducing rate",
+        "title": "Flat vs Reducing rate Calculator",
         "slug": "flat-vs-reducing-rate-calculator",
         "description": "Compare monthly EMI in Flat and Reducing balance interest rate schemes",
         "content": "",
@@ -277,7 +277,7 @@ export const calculatorData =
       },
       {
         "id": 26,
-        "title": "Brokerage",
+        "title": "Brokerage Calculator",
         "slug": "brokerage-calculator",
         "description": "Calculate brokerage and other charges for your stock orders",
         "content": "",
@@ -288,7 +288,7 @@ export const calculatorData =
       },
       {
         "id": 27,
-        "title": "Margin",
+        "title": "Margin Calculator",
         "slug": "margin-calculator",
         "description": "Calculate margin for delivery and intraday based on your order details",
         "content": "",
@@ -299,7 +299,7 @@ export const calculatorData =
       },
       {
         "id": 28,
-        "title": "TDS",
+        "title": "TDS Calculator",
         "slug": "tds-calculator",
         "description": "Calculate your TDS deductions",
         "content": "",
@@ -310,7 +310,7 @@ export const calculatorData =
       },
       {
         "id": 29,
-        "title": "Salary",
+        "title": "Salary Calculator",
         "slug": "salary-calculator",
         "description": "Calculate your net take home salary",
         "content": "",
@@ -321,7 +321,7 @@ export const calculatorData =
       },
       {
         "id": 30,
-        "title": "Inflation",
+        "title": "Inflation Calculator",
         "slug": "inflation-calculator",
         "description": "Calculate inflation adjusted prices",
         "content": "",
@@ -332,7 +332,7 @@ export const calculatorData =
       },
       {
         "id": 30,
-        "title": "EPF",
+        "title": "EPF Calculator",
         "slug": "epf-calculator",
         "description": "Calculate returns for your Employee’s Provident Fund (EPF)",
         "content": "",
