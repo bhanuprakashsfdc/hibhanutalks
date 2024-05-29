@@ -1,0 +1,24 @@
+
+.header {
+    color: rgb(12, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  

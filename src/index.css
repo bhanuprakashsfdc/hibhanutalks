@@ -3,3 +3,121 @@
   line-height: 1.5;
   font-weight: 400;
 }
+canvas {
+  height: 500px !important;
+  width: 500px !important;
+}
+/* Component CSS */
+.calculatorview {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.calculatorview h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.calculatorview .form-group {
+  margin-bottom: 15px;
+}
+
+.calculatorview label {
+  display: block;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.calculatorview input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calculatorview button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculatorview .result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calculatorview .breakdown {
+  margin-top: 20px;
+}
+
+.calculatorview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.calculatorview table, .calculatorview th, .calculatorview td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.calculatorview th {
+  background-color: #f2f2f2;
+  text-align: center;
+  color: #333;
+}
+
+.calculatorview td {
+  text-align: center;
+}
+
+/*  Blog CSS on Component */
+.blog {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.blog h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+.blog h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #555;
+}
+
+.blog p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.blog ul {
+  margin: 10px 0;
+  padding: 0 20px;
+  list-style-type: disc;
+}
