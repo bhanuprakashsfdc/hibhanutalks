@@ -1,10 +1,16 @@
 import React from 'react';
-
+import './Header.css';
 const Header = () => (
-  <header>
-    <div className="logo">HiBhanuTalks.com</div>
-    <input type="text" className="search-bar" placeholder="What are you looking for today?" />
-    <button className="login-btn">Login/Register</button>
+<header className="header">
+    <h1>HiBhanuTalks.com</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/calculators">Calculators</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 );
 

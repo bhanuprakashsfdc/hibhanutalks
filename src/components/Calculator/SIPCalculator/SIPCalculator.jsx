@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import './SIPCalculator.css';
-import Footer from '../../Footer/Footer';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const SIPCalculator = () => {
@@ -64,7 +63,7 @@ const SIPCalculator = () => {
   } : null;
 
   return (
-    <div className="sip-calculator">
+    <div className="calculatorview">
       
       <h1>SIP Calculator</h1>
       <div className="testview">
@@ -258,7 +257,6 @@ const SIPCalculator = () => {
           <p>Remember, the key to successful SIP investing lies in starting early, investing consistently, diversifying your portfolio, and regularly reviewing and optimizing your strategy. With the help of a reliable SIP calculator, you can navigate the complexities of investing and make informed decisions that align with your financial aspirations.</p>
           <p>So, what are you waiting for? Dive into the world of SIP calculators, explore the endless possibilities, and embark on a journey towards financial empowerment. Your future self will thank you for taking the first step today.</p>
         </div>
-        <Footer />
     </div>
     
   );
