@@ -1,0 +1,46 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+      
+    }
+  
+    thead {
+    }
+  
+    tr {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+    }
+  
+    td {
+      justify-content: space-between;
+      align-items: center;
+      padding: 1px 1px;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      flex: 1;
+      font-weight: bold;
+    }
+  }
+  

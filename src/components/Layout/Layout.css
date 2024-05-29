@@ -31,3 +31,14 @@
   background-color: #333;
   color: white;
 }
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

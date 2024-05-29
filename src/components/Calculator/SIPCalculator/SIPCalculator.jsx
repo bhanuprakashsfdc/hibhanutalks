@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
+import '../ResponsiveCalculators.css';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import './SIPCalculator.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const SIPCalculator = () => {
