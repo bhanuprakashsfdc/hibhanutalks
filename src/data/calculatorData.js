@@ -8,7 +8,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate how much you need to save or how much you will accumulate with your SIP. This calculator helps you plan and manage your SIP investments effectively.",
         "keywords": "SIP, savings, investment, financial planning, SIP calculator, returns",
-        "image": "/images/sip.jpg"
+        "image": "faChartLine",
+        "icon": "faPiggyBank"
       },
       {
         "id": 2,
@@ -18,7 +19,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate returns for lumpsum investments to achieve your financial goals. This tool helps you understand potential returns on one-time investments.",
         "keywords": "lumpsum, investment, financial goals, lumpsum calculator, returns",
-        "image": "/images/lumpsum.jpg"
+        "image": "src/assets/images/lumpsum-calculator.png",
+        "icon": "faCoins"
       },
       {
         "id": 3,
@@ -28,47 +30,52 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your final amount with Systematic Withdrawal Plans (SWP). This calculator assists in planning regular withdrawals from your investments.",
         "keywords": "SWP, systematic withdrawal, investment, financial planning, SWP calculator",
-        "image": "/images/swp.jpg"
+        "image": "/images/swp.jpg",
+        "icon": "faMoneyBillWave"
       },
       {
         "id": 4,
+        "title": "ULIP",
+        "slug": "ulip-calculator",
+        "description": "Calculate returns and benefits of ULIP investments",
+        "content": "",
+        "metaDescription": "Calculate returns and benefits of ULIP investments. This tool helps you understand the maturity amount, life cover, and tax savings of ULIPs.",
+        "keywords": "ULIP, Unit Linked Insurance Plan, investment, financial planning, ULIP calculator, returns, life cover, tax savings",
+        "image": "/images/ulip.jpg",
+        "icon": "faShieldAlt"
+      },
+      {
+        "id": 5,
         "title": "MF",
         "slug": "mf-calculator",
         "description": "Calculate the returns on your mutual fund investments",
         "content": "",
         "metaDescription": "Calculate the returns on your mutual fund investments. Use this calculator to estimate the potential growth of your mutual fund investments.",
         "keywords": "mutual funds, investment, financial planning, MF calculator, returns",
-        "image": "/images/mf.jpg"
+        "image": "/images/mf.jpg",
+        "icon": "faChartLine"
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "SSY",
         "slug": "ssy-calculator",
         "description": "Calculate returns for Sukanya Smariddhi Yojana (SSY) as per your investment",
         "content": "",
         "metaDescription": "Calculate returns for Sukanya Smariddhi Yojana (SSY) as per your investment. This tool helps you understand the benefits of the SSY scheme.",
         "keywords": "SSY, Sukanya Smariddhi Yojana, investment, financial planning, SSY calculator, returns",
-        "image": "/images/ssy.jpg"
+        "image": "/images/ssy.jpg",
+        "icon": "faChild"
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "PPF",
         "slug": "ppf-calculator",
         "description": "Calculate your returns on Public Provident Fund (PPF)",
         "content": "",
         "metaDescription": "Calculate your returns on Public Provident Fund (PPF). This calculator helps you estimate the growth of your PPF investments.",
         "keywords": "PPF, Public Provident Fund, investment, financial planning, PPF calculator, returns",
-        "image": "/images/ppf.jpg"
-      },
-      {
-        "id": 7,
-        "title": "EPF",
-        "slug": "epf-calculator",
-        "description": "Calculate returns for your Employee’s Provident Fund (EPF)",
-        "content": "",
-        "metaDescription": "Calculate returns for your Employee’s Provident Fund (EPF). Use this tool to understand the growth of your EPF contributions.",
-        "keywords": "EPF, Employee’s Provident Fund, investment, financial planning, EPF calculator, returns",
-        "image": "/images/epf.jpg"
+        "image": "/images/ppf.jpg",
+        "icon": "faLock"
       },
       {
         "id": 8,
@@ -78,7 +85,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Check returns on your fixed deposits (FDs) without any hassle. This calculator helps you estimate the maturity amount of your FDs.",
         "keywords": "FD, fixed deposits, investment, financial planning, FD calculator, returns",
-        "image": "/images/fd.jpg"
+        "image": "/images/fd.jpg",
+        "icon": "faUniversity"
       },
       {
         "id": 9,
@@ -88,7 +96,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Check returns on your Recurring Deposit (RD) in just a few clicks. This tool helps you calculate the maturity value of your RDs.",
         "keywords": "RD, Recurring Deposit, investment, financial planning, RD calculator, returns",
-        "image": "/images/rd.jpg"
+        "image": "/images/rd.jpg",
+        "icon": "faCalendarAlt"
       },
       {
         "id": 10,
@@ -98,7 +107,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate returns for your National Pension Scheme (NPS). Use this calculator to estimate the growth of your NPS contributions.",
         "keywords": "NPS, National Pension Scheme, investment, financial planning, NPS calculator, returns",
-        "image": "/images/nps.jpg"
+        "image": "/images/nps.jpg",
+        "icon": "faClipboardCheck"
       },
       {
         "id": 11,
@@ -108,7 +118,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your House Rent Allowance (HRA). This tool helps you understand the tax benefits of HRA.",
         "keywords": "HRA, House Rent Allowance, tax benefits, financial planning, HRA calculator",
-        "image": "/images/hra.jpg"
+        "image": "/images/hra.jpg",
+        "icon": "faHome"
       },
       {
         "id": 12,
@@ -118,7 +129,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate how much you need for a relaxed retirement. Use this calculator to plan your retirement savings.",
         "keywords": "retirement, retirement planning, savings, financial planning, retirement calculator",
-        "image": "/images/retirement.jpg"
+        "image": "/images/retirement.jpg",
+        "icon": "faUserTie"
       },
       {
         "id": 13,
@@ -128,7 +140,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate EMI on your loans – home loan, car loan or personal loan. This tool helps you estimate your monthly loan payments.",
         "keywords": "EMI, loan, home loan, car loan, personal loan, financial planning, EMI calculator",
-        "image": "/images/emi.jpg"
+        "image": "/images/emi.jpg",
+        "icon": "faCalculator"
       },
       {
         "id": 14,
@@ -138,7 +151,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your car loan EMI. Use this calculator to estimate your monthly car loan payments.",
         "keywords": "car loan, EMI, loan calculator, financial planning, car loan EMI calculator",
-        "image": "/images/car-loan-emi.jpg"
+        "image": "/images/car-loan-emi.jpg",
+        "icon": "faCar"
       },
       {
         "id": 15,
@@ -148,7 +162,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your home loan EMI. This tool helps you estimate your monthly home loan payments.",
         "keywords": "home loan, EMI, loan calculator, financial planning, home loan EMI calculator",
-        "image": "/images/home-loan-emi.jpg"
+        "image": "/images/home-loan-emi.jpg",
+        "icon": "faHouseUser"
       },
       {
         "id": 16,
@@ -158,7 +173,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate simple interest on your loans and saving schemes investments. Use this tool to understand your interest earnings.",
         "keywords": "simple interest, loan, savings, financial planning, simple interest calculator",
-        "image": "/images/simple-interest.jpg"
+        "image": "/images/simple-interest.jpg",
+        "icon": "faPercent"
       },
       {
         "id": 17,
@@ -168,7 +184,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate compound interest with ease. This calculator helps you understand the power of compound interest on your investments.",
         "keywords": "compound interest, investment, financial planning, compound interest calculator",
-        "image": "/images/compound-interest.jpg"
+        "image": "/images/compound-interest.jpg",
+        "icon": "faSuperscript"
       },
       {
         "id": 18,
@@ -178,7 +195,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your returns under National Savings Certificate scheme. Use this tool to estimate the growth of your NSC investments.",
         "keywords": "NSC, National Savings Certificate, investment, financial planning, NSC calculator",
-        "image": "/images/nsc.jpg"
+        "image": "/images/nsc.jpg",
+        "icon": "faCertificate"
       },
       {
         "id": 19,
@@ -188,7 +206,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate SIP Returns with an Yearly Raise. This tool helps you understand the benefits of increasing your SIP contributions annually.",
         "keywords": "Step Up SIP, SIP, investment, financial planning, SIP calculator",
-        "image": "/images/step-up-sip.jpg"
+        "image": "/images/step-up-sip.jpg",
+        "icon": "faChartArea"
       },
       {
         "id": 20,
@@ -198,7 +217,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your payable income tax with minimal effort. Use this calculator to estimate your tax liabilities.",
         "keywords": "income tax, tax calculator, financial planning, tax liabilities, income tax calculator",
-        "image": "/images/income-tax.jpg"
+        "image": "/images/income-tax.jpg",
+        "icon": "faFileInvoiceDollar"
       },
       {
         "id": 21,
@@ -208,7 +228,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate how much gratuity you will get when you retire. This tool helps you estimate your gratuity benefits.",
         "keywords": "gratuity, retirement, financial planning, gratuity calculator",
-        "image": "/images/gratuity.jpg"
+        "image": "/images/gratuity.jpg",
+        "icon": "faHandHoldingUsd"
       },
       {
         "id": 22,
@@ -218,7 +239,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your monthly investments under Atal Pension Yojana. Use this calculator to plan your APY contributions.",
         "keywords": "APY, Atal Pension Yojana, investment, financial planning, APY calculator",
-        "image": "/images/apy.jpg"
+        "image": "/images/apy.jpg",
+        "icon": "faPiggyBank"
       },
       {
         "id": 23,
@@ -228,7 +250,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "The simplest compound annual growth rate calculator. Use this tool to calculate the CAGR of your investments.",
         "keywords": "CAGR, compound annual growth rate, investment, financial planning, CAGR calculator",
-        "image": "/images/cagr.jpg"
+        "image": "/images/cagr.jpg",
+        "icon": "faChartLine"
       },
       {
         "id": 24,
@@ -238,7 +261,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your payable GST amount with a few clicks. Use this calculator to estimate your GST liabilities.",
         "keywords": "GST, tax, GST calculator, financial planning, tax liabilities",
-        "image": "/images/gst.jpg"
+        "image": "/images/gst.jpg",
+        "icon": "faReceipt"
       },
       {
         "id": 25,
@@ -248,7 +272,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Compare monthly EMI in Flat and Reducing balance interest rate schemes. This tool helps you choose the best loan option.",
         "keywords": "Flat rate, Reducing rate, EMI, loan calculator, financial planning",
-        "image": "/images/flat-vs-reducing.jpg"
+        "image": "/images/flat-vs-reducing.jpg",
+        "icon": "faBalanceScale"
       },
       {
         "id": 26,
@@ -258,7 +283,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate brokerage and other charges for your stock orders. Use this tool to estimate the costs of your trades.",
         "keywords": "brokerage, stock orders, trading, financial planning, brokerage calculator",
-        "image": "/images/brokerage.jpg"
+        "image": "/images/brokerage.jpg",
+        "icon": "faBriefcase"
       },
       {
         "id": 27,
@@ -268,7 +294,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate margin for delivery and intraday based on your order details. This tool helps you understand margin requirements.",
         "keywords": "margin, trading, delivery, intraday, financial planning, margin calculator",
-        "image": "/images/margin.jpg"
+        "image": "/images/margin.jpg",
+        "icon": "faBalanceScale"
       },
       {
         "id": 28,
@@ -278,7 +305,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your TDS deductions. Use this calculator to estimate the tax deducted at source on your income.",
         "keywords": "TDS, tax, deductions, financial planning, TDS calculator",
-        "image": "/images/tds.jpg"
+        "image": "/images/tds.jpg",
+        "icon": "faPercentage"
       },
       {
         "id": 29,
@@ -288,7 +316,8 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate your net take home salary. Use this tool to estimate your salary after deductions.",
         "keywords": "salary, take home, financial planning, salary calculator",
-        "image": "/images/salary.jpg"
+        "image": "/images/salary.jpg",
+        "icon": "faMoneyCheckAlt"
       },
       {
         "id": 30,
@@ -298,6 +327,19 @@ export const calculatorData =
         "content": "",
         "metaDescription": "Calculate inflation adjusted prices. Use this calculator to understand the impact of inflation on your expenses.",
         "keywords": "inflation, prices, financial planning, inflation calculator",
-        "image": "/images/inflation.jpg"
-      }
+        "image": "/images/inflation.jpg",
+        "icon": "faChartLine"
+      },
+      {
+        "id": 30,
+        "title": "EPF",
+        "slug": "epf-calculator",
+        "description": "Calculate returns for your Employee’s Provident Fund (EPF)",
+        "content": "",
+        "metaDescription": "Calculate returns for your Employee’s Provident Fund (EPF). Use this tool to understand the growth of your EPF contributions.",
+        "keywords": "EPF, Employee’s Provident Fund, investment, financial planning, EPF calculator, returns",
+        "image": "/images/epf.jpg",
+        "icon": "faUserLock"
+      },
+
 ];

@@ -1,0 +1,75 @@
+.ulip-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ulip-calculator h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .ulip-calculator .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .ulip-calculator label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+  }
+  
+  .ulip-calculator input,
+  .ulip-calculator select {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .ulip-calculator .result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ulip-calculator .additional-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .ulip-calculator .additional-info div {
+    text-align: center;
+  }
+  
+  .ulip-calculator .additional-info h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .ulip-calculator .additional-info p {
+    margin: 5px 0 0;
+    color: #777;
+  }
+  
+  .ulip-calculator button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6F00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .ulip-calculator button:hover {
+    background-color: #FF4500;
+  }
+  
