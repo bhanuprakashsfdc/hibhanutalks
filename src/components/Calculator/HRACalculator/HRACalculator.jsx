@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './HRACalculator.css';
 
 const HRACalculator = () => {
-  const [basicSalary, setBasicSalary] = useState('');
-  const [hraReceived, setHraReceived] = useState('');
-  const [rentPaid, setRentPaid] = useState('');
-  const [metroCity, setMetroCity] = useState(false);
+  const [basicSalary, setBasicSalary] = useState('25000');
+  const [hraReceived, setHraReceived] = useState('11000');
+  const [rentPaid, setRentPaid] = useState('13000');
+  const [metroCity, setMetroCity] = useState(true);
   const [results, setResults] = useState(null);
 
   useEffect(() => {

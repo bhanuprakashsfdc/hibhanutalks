@@ -6,9 +6,9 @@ import './SSYCalculator.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const SSYCalculator = () => {
-  const [annualInvestment, setAnnualInvestment] = useState('1000');
-  const [rateOfInterest, setRateOfInterest] = useState('');
-  const [investmentPeriod, setInvestmentPeriod] = useState('');
+  const [annualInvestment, setAnnualInvestment] = useState('100000');
+  const [rateOfInterest, setRateOfInterest] = useState('8.2');
+  const [investmentPeriod, setInvestmentPeriod] = useState('20');
   const [results, setResults] = useState(null);
 
   useEffect(() => {

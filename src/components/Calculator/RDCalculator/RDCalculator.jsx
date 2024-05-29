@@ -6,9 +6,9 @@ import './RDCalculator.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const RDCalculator = () => {
-  const [monthlyDeposit, setMonthlyDeposit] = useState('1000');
-  const [rateOfInterest, setRateOfInterest] = useState('');
-  const [timePeriod, setTimePeriod] = useState('');
+  const [monthlyDeposit, setMonthlyDeposit] = useState('10000');
+  const [rateOfInterest, setRateOfInterest] = useState('5');
+  const [timePeriod, setTimePeriod] = useState('10');
   const [results, setResults] = useState(null);
 
   useEffect(() => {

@@ -6,9 +6,9 @@ import './PPFCalculator.css';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PPFCalculator = () => {
-  const [annualInvestment, setAnnualInvestment] = useState('1000');
-  const [rateOfInterest, setRateOfInterest] = useState('');
-  const [investmentPeriod, setInvestmentPeriod] = useState('');
+  const [annualInvestment, setAnnualInvestment] = useState('100000');
+  const [rateOfInterest, setRateOfInterest] = useState('7.1');
+  const [investmentPeriod, setInvestmentPeriod] = useState('60');
   const [results, setResults] = useState(null);
 
   useEffect(() => {

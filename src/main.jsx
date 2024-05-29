@@ -32,7 +32,7 @@ import MarginCalculator from './components/Calculator/MarginCalculator/MarginCal
 import TDSCalculator from './components/Calculator/TDSCalculator/TDSCalculator';
 import SalaryCalculator from './components/Calculator/SalaryCalculator/SalaryCalculator';
 import InflationCalculator from './components/Calculator/InflationCalculator/InflationCalculator';
-
+import ULIPCalculator from './components/Calculator/ULIPCalculator/ULIPCalculator';
 import './App.css';
 
 const rootElement = document.getElementById('root');
@@ -73,6 +73,7 @@ root.render(
       <Route path="/calculator/tds-calculator" element={<TDSCalculator />} />
       <Route path="/calculator/salary-calculator" element={<SalaryCalculator />} />
       <Route path="/calculator/inflation-calculator" element={<InflationCalculator />} />
+      <Route path="/calculator/ulip-calculator" element={<ULIPCalculator />} />
 
     </Routes>
   </Router>
