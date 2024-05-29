@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Calculators from './components/Calculator/Calculators/Calculators';
 import Footer from './components/Footer/Footer';
 import './App.css'
-
+import './index.css'
 function App() {
 
   return (
