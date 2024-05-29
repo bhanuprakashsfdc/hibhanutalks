@@ -137,7 +137,7 @@ const SIPCalculator = () => {
           </table>
         </div>
       )}
-        <div className="sip-calculator-blog">
+        <div className="blog">
           <h1>Unlock Your Wealth: The Ultimate Guide to SIP Calculators and Systematic Investment Plans</h1>
           <p>Are you tired of watching your hard-earned money sit idly in a savings account, earning meager interest? Do you dream of building a substantial nest egg for your future, but feel overwhelmed by the complexities of investing? If so, you're not alone. Many people struggle to take that first step towards financial freedom, unsure of where to begin.</p>
           <p>That's where Systematic Investment Plans (SIPs) come into play. SIPs are a game-changing investment strategy that can help you achieve your financial goals, one step at a time. And the key to unlocking the full potential of SIPs? A reliable SIP calculator.</p>
